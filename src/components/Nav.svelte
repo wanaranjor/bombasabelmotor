@@ -15,7 +15,7 @@
     <div class="flex flex-row items-center">
       <RainDrop32
         class="fill-current text-orange-500 inline-block h-12 w-12 mx-auto" />
-      <span class="px-3 text-gray-800 text-2xl font-bold">Bombas Abel Motors</span>
+      <span class="px-3 text-gray-800 text-2xl font-bold">Bombas Abel Motor</span>
     </div>
     <label for="menu-toggle" class="cursor-pointer md:hidden block">
       <svg
