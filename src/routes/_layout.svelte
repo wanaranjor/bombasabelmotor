@@ -1,16 +1,14 @@
 <script>
 	import Nav from "../components/Nav.svelte";
-	// import Banner from "../components/Banner.svelte";
-	// import Footer from "../components/Footer.svelte";
-	export let segment;
+	import Banner from "../components/Banner.svelte";
 </script>
 
 <svelte:head>
-	<title>Bombas Abel Motor</title>
+	<title>Bombas AbelMotor</title>
 </svelte:head>
 
-<Nav {segment} />
-
+<Nav />
+<Banner />
 <main>
 	<slot />
 </main>
