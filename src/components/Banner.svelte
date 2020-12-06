@@ -1,22 +1,26 @@
 <script>
+  import Nav from "../components/Nav.svelte";
   import Contact from "./Contact.svelte";
 </script>
 
-<section
-  id="inicio"
-  class="bg-cover bg-center h-56 md:h-sm flex items-center"
-  style="background-image: url(banner.webp)">
+<section class="flex flex-row">
   <div
-    class="grid grid-cols-1 md:grid-cols-2 gap-3 py-5 container mx-auto text-center md:text-right">
-    <div class="text-black px-3 md:px-0 justify-center">
-      <h1 class="text-4xl tracking-tight font-black sm:text-5xl md:text-6xl">
-        BOMBAS ABELMOTOR
-      </h1>
-      <p class="text-2xl py-3">Juntos protegiendo el agua</p>
-      <!-- <a
+    class="w-3/5 h-64 bg-center bg-cover md:h-sm"
+    style="background-image: url(banner.webp)">
+    <Nav />
+  </div>
+  <div class="flex flex-col items-start justify-center w-2/5 px-24 text-left">
+    <h1 class="text-4xl font-bold tracking-tight sm:text-3xl md:text-5xl">
+      Bombas AbelMotor
+    </h1>
+    <p class="text-2xl text-gray-500">Juntos Protegiendo el Agua</p>
+    <p class="my-3 text-sm text-gray-500">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+    </p>
+    <!-- <a
         href="/contact"
-        class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full">Contáctenos</a> -->
-      <Contact />
-    </div>
+        class="px-4 py-2 font-bold text-white bg-orange-500 rounded-full hover:bg-orange-700">Contáctenos</a> -->
+    <Contact />
   </div>
 </section>

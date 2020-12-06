@@ -8,18 +8,16 @@
   }
 </style>
 
-<nav
-  class="w-full sticky top-0 z-30 border-orange-500 border-b-2 bg-white shadow-md">
+<nav class="sticky top-0 z-30 w-full font-bold text-white">
   <div
-    class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2 px-3 md:px-0 ">
+    class="container flex flex-wrap items-center justify-start w-full px-3 py-2 mx-auto mt-0 md:px-0 ">
     <div class="flex flex-row items-center">
       <RainDrop32
-        class="fill-current text-orange-500 inline-block h-12 w-12 mx-auto" />
-      <span class="px-1 text-gray-800 text-lg font-black">BOMBAS ABELMOTOR</span>
+        class="inline-block w-12 h-12 mx-auto text-orange-500 fill-current" />
     </div>
-    <label for="menu-toggle" class="cursor-pointer md:hidden block">
+    <label for="menu-toggle" class="block cursor-pointer md:hidden">
       <svg
-        class="fill-current text-gray-900"
+        class="text-gray-900 fill-current"
         xmlns="http://www.w3.org/2000/svg"
         width="20"
         height="20"
@@ -31,50 +29,50 @@
 
     <input class="hidden" type="checkbox" id="menu-toggle" />
     <div
-      class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1"
+      class="order-3 hidden w-full md:flex md:items-center md:w-auto md:order-1"
       id="menu">
       <nav>
         <ul
-          class="md:flex items-center justify-between text-md md:text-lg text-gray-800 pt-4 md:pt-0">
+          class="items-center justify-start pt-4 text-white md:flex text-md md:text-lg md:pt-0">
           <li class="px-2 hover:text-orange-500">
             <a
               href="/#inicio"
-              class="inline-block no-underline py-2 md:py-0 px-4">
+              class="inline-block px-4 py-2 no-underline md:py-0">
               Inicio
             </a>
           </li>
           <li class="px-2 hover:text-orange-500">
             <a
               href="#quienes-somos"
-              class="inline-block no-underline py-2 md:py-0 px-4">
+              class="inline-block px-4 py-2 no-underline md:py-0">
               Quienes Somos
             </a>
           </li>
           <li class="px-2 hover:text-orange-500">
             <a
               href="/#mision"
-              class="inline-block no-underline py-2 md:py-0 px-4">
+              class="inline-block px-4 py-2 no-underline md:py-0">
               Misión
             </a>
           </li>
           <li class="px-2 hover:text-orange-500">
             <a
               href="/#vision"
-              class="inline-block no-underline py-2 md:py-0 px-4">
+              class="inline-block px-4 py-2 no-underline md:py-0">
               Visión
             </a>
           </li>
           <!-- <li class="px-2 hover:text-orange-500">
             <a
               href="/#servicios"
-              class="inline-block no-underline py-2 md:py-0 px-4">
+              class="inline-block px-4 py-2 no-underline md:py-0">
               Servicios
             </a>
           </li> -->
           <li class="px-2 hover:text-orange-500">
             <a
               href="/#clientes"
-              class="inline-block no-underline py-2 md:py-0 px-4">
+              class="inline-block px-4 py-2 no-underline md:py-0">
               Clientes
             </a>
           </li>
