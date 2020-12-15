@@ -1,27 +1,20 @@
-<script>
-  import Contact from "./Contact.svelte";
-</script>
-
-<section
-  class="flex flex-row bg-center bg-cover h-96 "
-  style="background-image: url(water.webp)">
-  <div class="container flex mx-auto">
-    <div class="flex flex-col items-start justify-center w-3/5 mx-auto">
-      <h1 class="text-4xl font-bold tracking-tight sm:text-3xl md:text-5xl">
-        Bombas AbelMotor
+<section class="bg-black h-96">
+  <div
+    class="flex flex-col items-center justify-center text-center sm:flex-row md:justify-start sm:text-left">
+    <div
+      class="flex flex-col w-full px-10 mx-auto my-5 text-white sm:w-2/5 sm:my-0">
+      <h1
+        class="text-4xl font-bold tracking-tight bg-black sm:text-3xl md:text-6xl">
+        Bombas Abelmotor
       </h1>
-      <p class="text-2xl text-gray-500">Juntos Protegiendo el Agua</p>
-      <p class="my-3 text-sm text-gray-500">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the
-      </p>
+      <p class="text-2xl">Juntos Protegiendo el Agua</p>
+      <h2 class="text-xl font-bold leading-none ">Edgar Sora</h2>
     </div>
-    <div class="flex flex-col items-start justify-center w-2/5 px-24 text-left">
-      <!-- <a
-        href="/contact"
-        class="px-4 py-2 font-bold text-white bg-orange-500 rounded-full hover:bg-orange-700">Contáctenos</a> -->
-      <Contact />
-    </div>
+    <div
+      class="flex w-full bg-center bg-cover sm:w-3/5 h-96"
+      style="background-image: url(drop-water.webp)" />
   </div>
 </section>
+
+<!-- class="bg-center bg-cover h-96"
+  style="background-image: url(drop-water.webp)"> -->
