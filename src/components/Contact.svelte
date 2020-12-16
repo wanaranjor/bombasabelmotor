@@ -12,6 +12,8 @@
   </div>
   <div class="flex items-center justify-center">
     <PhoneFilled16 />
-    <a href="tel:3125354782" class="px-3">+57 3125354782</a>
+    <a href="tel:0314901031" class="px-3">4901031</a>
+    <span>-</span>
+    <a href="tel:3125354782" class="px-3">3125354782</a>
   </div>
 </div>

@@ -1,6 +1,12 @@
 module.exports = {
   purge: false,
   darkMode: false, // or 'media' or 'class'
+  experimental: {
+    uniformColorPalette: true,
+    extendedFontSizeScale: true,
+    // currently Sapper dev server chokes on this
+    // applyComplexClasses: true,
+  },
   theme: {
     extend: {
       height: {

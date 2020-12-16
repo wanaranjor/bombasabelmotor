@@ -1,4 +1,4 @@
-<section class="bg-black h-96">
+<section class="bg-black">
   <div
     class="flex flex-col items-center justify-center text-center sm:flex-row md:justify-start sm:text-left">
     <div
@@ -8,7 +8,7 @@
         Bombas Abelmotor
       </h1>
       <p class="text-2xl">Juntos Protegiendo el Agua</p>
-      <h2 class="text-xl font-bold leading-none ">Edgar Sora</h2>
+      <h2 class="py-3 text-xl font-bold leading-none">EDGAR SORA</h2>
     </div>
     <div
       class="flex w-full bg-center bg-cover sm:w-3/5 h-96"
