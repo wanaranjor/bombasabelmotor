@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Bombas AbelMotor</title>
+	<title>Bombas Abelmotor</title>
 </svelte:head>
 
 <Nav />
