@@ -1,3 +1,7 @@
+<script>
+  import Carousel from "./Carousel.svelte";
+</script>
+
 <section class="bg-black">
   <div
     class="flex flex-col items-center justify-center text-center sm:flex-row md:justify-start sm:text-left">
@@ -10,9 +14,9 @@
       <p class="text-2xl">Juntos Protegiendo el Agua</p>
       <h2 class="py-3 text-xl font-bold leading-none">EDGAR SORA</h2>
     </div>
-    <div
-      class="flex w-full bg-center bg-cover sm:w-3/5 h-96"
-      style="background-image: url(drop-water.webp)" />
+    <div class="flex w-full sm:w-3/5">
+      <Carousel />
+    </div>
   </div>
 </section>
 
