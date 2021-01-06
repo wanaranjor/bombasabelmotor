@@ -13,6 +13,9 @@
   <div class="slide-content h-96">
     <img src="gota.webp" alt="gota" class="w-full" />
   </div>
+  <div class="slide-content h-96">
+    <img src="pedrollo-cover.webp" alt="pedrollo-cover" class="w-full" />
+  </div>
   <span class="control" slot="right-control">
     <ChevronRightIcon />
   </span>
